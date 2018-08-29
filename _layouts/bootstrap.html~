@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/bootstrap-theme.css"/>
+    <link rel="stylesheet" href="/css/bootstrap.css"/>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="alternate" type="application/rss+xml" title="RSS"
+      href="/feed.xml">
+    <!-- {% include header_contents.html %} -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-md-12">
+	{{ content }}
+      </div>
+    </div>
+    <!-- <hr> -->
+    <!-- {% include footer.html %} -->
+  </body>
+</html>
