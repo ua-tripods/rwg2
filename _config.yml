@@ -6,9 +6,7 @@ url: "http://ua-tripods.github.io/rwg2/" # the base hostname & protocol for your
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
-plugins:
-  - jekyll-feed
+remote_theme: garrettboatman/Blank-Theme-Jekyll
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
